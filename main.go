@@ -3,11 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	cards := []string{"Ace of Diamonds", newCard()}
+	cards := []string{"Seven of Diamonds", newCard()}
+	cards = append(cards, "Six of Spaces")
 
 	fmt.Println(cards)
 }
 
 func newCard() string {
-	return "Five of Diamonds"
+	return "Eight of Clubs"
 }
