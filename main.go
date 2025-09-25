@@ -7,7 +7,9 @@ func main() {
 
 	cards = append(cards, "Six of Spaces")
 
-
+	for i, card := range cards {
+		fmt.Println(i, card)
+	}
 }
 
 func newCard() string {
