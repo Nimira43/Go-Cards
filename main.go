@@ -6,8 +6,8 @@ func main() {
 	cards := []string{"Ace of Diamonds", newCard()}
 
 	cards = append(cards, "Six of Spaces")
-	
-	fmt.Println(cards)
+
+
 }
 
 func newCard() string {
