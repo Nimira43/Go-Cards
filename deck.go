@@ -31,3 +31,7 @@ func (d deck) print() {
 func deal(d deck, handsSize int) (deck, deck) {
 	return d[:handsSize], d[handsSize:]
 }
+
+func toString() {
+	
+}
