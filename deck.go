@@ -38,3 +38,7 @@ func deal(d deck, handsSize int) (deck, deck) {
 func (d deck) toString() string {
 	return strings.Join([]string(d), ",")
 }
+
+func (d deck) saveToFile() {
+
+}
