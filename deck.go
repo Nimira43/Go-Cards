@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 type deck []string
 
@@ -32,6 +35,6 @@ func deal(d deck, handsSize int) (deck, deck) {
 	return d[:handsSize], d[handsSize:]
 }
 
-func toString() {
-	
+func (d deck) toString() string {
+	[]string(d)
 }
