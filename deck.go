@@ -36,5 +36,6 @@ func deal(d deck, handsSize int) (deck, deck) {
 }
 
 func (d deck) toString() string {
-	[]string(d)
+	strings.Join([]string(d), ",")
+	
 }
